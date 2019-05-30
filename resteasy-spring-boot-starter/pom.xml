@@ -11,7 +11,7 @@
     </parent>
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>resteasy-spring-boot-starter</artifactId>
-    <version>3.1.0.Final</version>
+    <version>4.0.0.Final-SNAPSHOT</version>
     <name>${project.artifactId}</name>
 
     <description>A Spring Boot starter for RESTEasy</description>
@@ -59,9 +59,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springboot.version>2.1.5.RELEASE</springboot.version>
-        <resteasy.version>3.7.0.Final</resteasy.version>
+        <resteasy.version>4.0.0.Final</resteasy.version>
         <coverage.line>80</coverage.line>
-        <coverage.branch>80</coverage.branch>
+        <coverage.branch>75</coverage.branch> <!-- Don't check this in -->
         <modular.jdk.args/>
         <modular.jdk.props/>
     </properties>
@@ -79,7 +79,7 @@
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-jaxrs</artifactId>
+            <artifactId>resteasy-core-spi</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
         <dependency>
