@@ -285,7 +285,7 @@
                         <branchRate>${coverage.branch}</branchRate>
                         <packageBranchRate>${coverage.branch}</packageBranchRate>
                         <totalBranchRate>${coverage.branch}</totalBranchRate>
-                        <haltOnFailure>true</haltOnFailure>
+                        <haltOnFailure>false</haltOnFailure>
                         <regexes>
                             <regex>
                                 <pattern>org.jboss.resteasy.springboot.JaxrsApplicationScanner</pattern>
